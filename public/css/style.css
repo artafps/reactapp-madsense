@@ -1,0 +1,463 @@
+@font-face {
+    font-family: iransans;
+    src: url(../fonts/FontsFree-Net-ir_sans.ttf);
+}
+
+body {
+    width: 100%;
+    margin: 0 auto 0;
+    background-color: rgb(196, 196, 255);
+    font-family: iransans;
+    background-color: #11151d;
+    scroll-behavior: smooth;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+.continer {
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+.head {
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.login {
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid rgb(163, 163, 163);
+    text-align: center;
+    margin-top: 27px;
+    margin-left: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.login:hover {
+    width: 120px;
+    height: 40px;
+    border: 2px solid rgb(255, 66, 66);
+    background-color: rgb(255, 66, 66);
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 27px;
+    transition: .4s;
+    margin-left: 20px;
+}
+
+.text-login {
+    float: left;
+    margin-left: 44px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.text-login1 {
+    float: left;
+    margin-left: 36px;
+    margin-top: 13px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.name-brande {
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+
+.name-brande2 {
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+
+.name-brande3 {
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+.name-brande4 {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+.selectors-text {
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.selectors-text:hover {
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 60px;
+    color: rgb(255, 66, 66);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.name-text {
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.colorred {
+    color: rgb(255, 66, 66);
+}
+
+.hrmoshe {
+    height: 2px;
+    background-color: rgba(49,52,57,.28);
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+}
+
+.hrmoshe2 {
+    height: 2px;
+    background-color: rgba(49,52,57,.28);
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.section-home{
+    width: 100%;
+    height: 750px;
+    float: left;
+}
+.section-home2{
+    width: 100%;
+    height: 750px;
+    float: left;
+}
+.section-home3{
+    width: 100%;
+    height: 900px;
+    float: left;
+}
+
+.section-right{
+    width: 45%;
+    height: 750px;
+    float: right;
+}
+
+.section-left{
+    width: 45%;
+    height: 850px;
+    float: left;
+    text-align: center;
+}
+.section-right2{
+    width: 45%;
+    height: 850px;
+    float: right;
+    text-align: center;
+}
+
+.section-left2{
+    width: 45%;
+    height: 750px;
+    float: left;
+    align-items: center;
+    text-align: center;
+}
+
+.hr-box-werk{
+    height: 2px;
+    background-color: rgba(49,52,57,.28);
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.home-mtn-title{
+    float: right;
+    text-align: right;
+    direction: rtl;
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.home-mtn-title2{
+    float: right;
+    text-align: right;
+    direction: rtl;
+    color: rgb(90, 90, 90);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.img-home{
+    margin: 50px 0px 0px 0px;
+}
+
+.btn-go-shop-login{
+    background-color: rgb(255, 66, 66);
+    border-radius: 30px;
+    width: 150px;
+    transition: 0.5s;
+    height: 50px;
+    float: right;    
+}
+
+.btn-go-shop-login:hover{
+    background-color: rgb(255, 66, 66);
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    float: right;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 5px rgba(255, 60, 60, 0.25);
+}
+
+.btn-box-extera{
+    width: 480px;
+    height: 60px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-go-shop-login2{
+    background-color: rgb(255, 66, 66);
+    border-radius: 30px;
+    width: 150px;
+    transition: 0.5s;
+    height: 50px;
+    float: right;
+}
+
+.btn-go-shop-login2:hover{
+    background-color: rgb(255, 66, 66);
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    float: right;
+    
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 5px rgba(255, 60, 60, 0.25);
+}
+
+.box-icon-toltip{
+    width: 480px;
+    height: 85px;
+    border-radius: 20px;
+    background-color: #11151d;
+    margin: auto;
+}
+
+.header-section{
+    float: right;
+    text-align: right;
+    font-size: 25px;
+    margin-top: 40px;
+    color: white;
+}
+
+.header-section2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    color: white;
+}
+
+.img-toltip-sharh{
+    width: 70px;
+    height: 70px;
+    float: left;
+    cursor: pointer;
+    background-color: #11151d;
+    border-radius: 8px;
+    margin: 7px 20px 0px 30px;
+}
+
+.img-toltip-sharh:hover{
+    width: 70px;
+    height: 70px;
+    float: left;
+    background-color: rgba(25,29,40,.48);
+    border-radius: 8px;
+    margin: 7px 20px 0px 30px;
+}
+
+.img-icon-15{
+    width: 60px;
+    margin-top: 15px;
+}
+
+.img-icon-16{
+    width: 50px;
+    margin-top: 10px;
+}
+
+.img-icon-17{
+    width: 45px;
+    margin-top: 10px;
+}
+
+.img-icon-18{
+    width: 45px;
+    margin-top: 15px;
+}
+
+.boxheadselectory{
+    width: 470px;
+    margin: auto;
+    height: 70px;
+    background-color: rgba(25,29,40,.48);
+    border-radius: 50px;
+}
+
+.headselectory{
+    width: 130px;
+    float: left;
+    margin-left: 20px;
+    border-radius: 50px;
+    height: 45px;
+    margin-top: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+.span-text-mg{
+    float: left;
+    margin-top: 10px;
+    margin-left: 28px;
+}
+
+.span-text-mg2{
+    float: left;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.span-text-mg3{
+    float: left;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+
+.section2{
+    width: 480px;
+    height: 56px;
+    background-color: rgba(245, 245, 245, 0);
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px rgb(37, 37, 37) solid ;
+    color: rgb(231, 231, 231);
+}
+
+.mr-top{
+    margin-top: 10px;
+    float: right;
+}
+.price{
+    color: white;
+    float: left;
+    font-size: 20px ;
+    margin-top: 10px;
+}
+.price3{
+    color: white;
+    font-size: 23px ;
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.ActiVE{
+background-color: rgb(255, 66, 66);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    
+}
+   
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 20rem;
+    background-color: rgba(25,29,40,.48);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -177px;
+    z-index: 1;
+}
+
+   
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.dev{
+    width: 400px;
+    float: right;
+    height: 100px;
+    color: rgba(255, 255, 255, 0.377);
+}
+.dev:hover{
+    width: 400px;
+    float: right;
+    height: 100px;
+    color: rgba(255, 255, 255, 0.377);
+}
+.aert1{
+    float: right;
+    margin-top:33px;
+    margin-right: 60px;
+
+}
+.aert2{
+    float: right;
+    margin-top:33px;
+    margin-right: 20px;
+}
+.aer32{
+    color: rgba(255, 255, 255, 0.377);
+    text-decoration: none;
+}
+.aer32:hover{
+color: white;
+}
+.iconesdis{
+    color: rgba(255, 255, 255, 0.377);
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.iconesdis:hover{
+    color: rgb(255, 255, 255);
+}
